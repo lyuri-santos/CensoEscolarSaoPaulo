@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_YQhpkWbkEeubbc8yJli9Wg" name="2018" dataPackage="_YQiQoGbkEeubbc8yJli9Wg" Server="Localhost 127.0.0.1" FilePath="C:/Users/Luciana/Downloads/Microdados/microdados_ed_basica_2018/DADOS/MATRICULA_SUDESTE.CSV" Encoding="US-ASCII" FieldSeparatorValue="&quot;|&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_YQiQoGbkEeubbc8yJli9Wg" name="default" dataManager="_YQhpkWbkEeubbc8yJli9Wg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_YQiQoWbkEeubbc8yJli9Wg" id="_SAeAwGbkEeubbc8yJli9Wg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQombkEeubbc8yJli9Wg" label="NU_ANO_CENSO" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQo2bkEeubbc8yJli9Wg" label="ID_ALUNO" length="32" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQpGbkEeubbc8yJli9Wg" label="ID_MATRICULA" length="9" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQpWbkEeubbc8yJli9Wg" label="NU_DIA" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQpmbkEeubbc8yJli9Wg" label="NU_MES" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQp2bkEeubbc8yJli9Wg" label="NU_ANO" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQqGbkEeubbc8yJli9Wg" label="NU_IDADE_REFERENCIA" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQqWbkEeubbc8yJli9Wg" label="NU_IDADE" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQqmbkEeubbc8yJli9Wg" label="NU_DURACAO_TURMA" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQq2bkEeubbc8yJli9Wg" label="NU_DUR_ATIV_COMP_MESMA_REDE" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQrGbkEeubbc8yJli9Wg" label="NU_DUR_ATIV_COMP_OUTRAS_REDES" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQrWbkEeubbc8yJli9Wg" label="NU_DUR_AEE_MESMA_REDE" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQrmbkEeubbc8yJli9Wg" label="NU_DUR_AEE_OUTRAS_REDES" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQr2bkEeubbc8yJli9Wg" label="NU_DIAS_ATIVIDADE" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQsGbkEeubbc8yJli9Wg" label="TP_SEXO" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQsWbkEeubbc8yJli9Wg" label="TP_COR_RACA" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQsmbkEeubbc8yJli9Wg" label="TP_NACIONALIDADE" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQs2bkEeubbc8yJli9Wg" label="CO_PAIS_ORIGEM" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQtGbkEeubbc8yJli9Wg" label="CO_UF_NASC" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQtWbkEeubbc8yJli9Wg" label="CO_MUNICIPIO_NASC" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQtmbkEeubbc8yJli9Wg" label="CO_UF_END" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQt2bkEeubbc8yJli9Wg" label="CO_MUNICIPIO_END" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQuGbkEeubbc8yJli9Wg" label="TP_ZONA_RESIDENCIAL" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQuWbkEeubbc8yJli9Wg" label="TP_OUTRO_LOCAL_AULA" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQumbkEeubbc8yJli9Wg" label="IN_TRANSPORTE_PUBLICO" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQu2bkEeubbc8yJli9Wg" label="TP_RESPONSAVEL_TRANSPORTE" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQvGbkEeubbc8yJli9Wg" label="IN_TRANSP_VANS_KOMBI" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQvWbkEeubbc8yJli9Wg" label="IN_TRANSP_MICRO_ONIBUS" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQvmbkEeubbc8yJli9Wg" label="IN_TRANSP_ONIBUS" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQv2bkEeubbc8yJli9Wg" label="IN_TRANSP_BICICLETA" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQwGbkEeubbc8yJli9Wg" label="IN_TRANSP_TR_ANIMAL" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQwWbkEeubbc8yJli9Wg" label="IN_TRANSP_OUTRO_VEICULO" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQwmbkEeubbc8yJli9Wg" label="IN_TRANSP_EMBAR_ATE5" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQw2bkEeubbc8yJli9Wg" label="IN_TRANSP_EMBAR_5A15" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQxGbkEeubbc8yJli9Wg" label="IN_TRANSP_EMBAR_15A35" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQxWbkEeubbc8yJli9Wg" label="IN_TRANSP_EMBAR_35" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQxmbkEeubbc8yJli9Wg" label="IN_TRANSP_TREM_METRO" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQx2bkEeubbc8yJli9Wg" label="IN_NECESSIDADE_ESPECIAL" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQyGbkEeubbc8yJli9Wg" label="IN_CEGUEIRA" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQyWbkEeubbc8yJli9Wg" label="IN_BAIXA_VISAO" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQymbkEeubbc8yJli9Wg" label="IN_SURDEZ" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQy2bkEeubbc8yJli9Wg" label="IN_DEF_AUDITIVA" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQzGbkEeubbc8yJli9Wg" label="IN_SURDOCEGUEIRA" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQzWbkEeubbc8yJli9Wg" label="IN_DEF_FISICA" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQzmbkEeubbc8yJli9Wg" label="IN_DEF_INTELECTUAL" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQz2bkEeubbc8yJli9Wg" label="IN_DEF_MULTIPLA" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ0GbkEeubbc8yJli9Wg" label="IN_AUTISMO" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ0WbkEeubbc8yJli9Wg" label="IN_SINDROME_ASPERGER" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ0mbkEeubbc8yJli9Wg" label="IN_SINDROME_RETT" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ02bkEeubbc8yJli9Wg" label="IN_TRANSTORNO_DI" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ1GbkEeubbc8yJli9Wg" label="IN_SUPERDOTACAO" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ1WbkEeubbc8yJli9Wg" label="IN_RECURSO_LEDOR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ1mbkEeubbc8yJli9Wg" label="IN_RECURSO_TRANSCRICAO" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ12bkEeubbc8yJli9Wg" label="IN_RECURSO_INTERPRETE" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ2GbkEeubbc8yJli9Wg" label="IN_RECURSO_LIBRAS" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ2WbkEeubbc8yJli9Wg" label="IN_RECURSO_LABIAL" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ2mbkEeubbc8yJli9Wg" label="IN_RECURSO_BRAILLE" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ22bkEeubbc8yJli9Wg" label="IN_RECURSO_AMPLIADA_16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ3GbkEeubbc8yJli9Wg" label="IN_RECURSO_AMPLIADA_20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ3WbkEeubbc8yJli9Wg" label="IN_RECURSO_AMPLIADA_24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ3mbkEeubbc8yJli9Wg" label="IN_RECURSO_NENHUM" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ32bkEeubbc8yJli9Wg" label="TP_INGRESSO_FEDERAIS" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ4GbkEeubbc8yJli9Wg" label="TP_MEDIACAO_DIDATICO_PEDAGO" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ4WbkEeubbc8yJli9Wg" label="IN_ESPECIAL_EXCLUSIVA" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ4mbkEeubbc8yJli9Wg" label="IN_REGULAR" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ42bkEeubbc8yJli9Wg" label="IN_EJA" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ5GbkEeubbc8yJli9Wg" label="IN_PROFISSIONALIZANTE" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ5WbkEeubbc8yJli9Wg" label="TP_ETAPA_ENSINO" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ5mbkEeubbc8yJli9Wg" label="ID_TURMA" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ52bkEeubbc8yJli9Wg" label="CO_CURSO_EDUC_PROFISSIONAL" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ6GbkEeubbc8yJli9Wg" label="TP_UNIFICADA" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ6WbkEeubbc8yJli9Wg" label="TP_TIPO_TURMA" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ6mbkEeubbc8yJli9Wg" label="CO_ENTIDADE" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ62bkEeubbc8yJli9Wg" label="CO_REGIAO" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ7GbkEeubbc8yJli9Wg" label="CO_MESORREGIAO" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ7WbkEeubbc8yJli9Wg" label="CO_MICRORREGIAO" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ7mbkEeubbc8yJli9Wg" label="CO_UF" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ72bkEeubbc8yJli9Wg" label="CO_MUNICIPIO" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ8GbkEeubbc8yJli9Wg" label="CO_DISTRITO" length="9" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ8WbkEeubbc8yJli9Wg" label="TP_DEPENDENCIA" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ8mbkEeubbc8yJli9Wg" label="TP_LOCALIZACAO" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ82bkEeubbc8yJli9Wg" label="TP_CATEGORIA_ESCOLA_PRIVADA" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ9GbkEeubbc8yJli9Wg" label="IN_CONVENIADA_PP" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ9WbkEeubbc8yJli9Wg" label="TP_CONVENIO_PODER_PUBLICO" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ9mbkEeubbc8yJli9Wg" label="IN_MANT_ESCOLA_PRIVADA_EMP" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ92bkEeubbc8yJli9Wg" label="IN_MANT_ESCOLA_PRIVADA_ONG" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ-GbkEeubbc8yJli9Wg" label="IN_MANT_ESCOLA_PRIVADA_SIND" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ-WbkEeubbc8yJli9Wg" label="IN_MANT_ESCOLA_PRIVADA_SIST_S" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ-mbkEeubbc8yJli9Wg" label="IN_MANT_ESCOLA_PRIVADA_S_FINS" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ-2bkEeubbc8yJli9Wg" label="TP_REGULAMENTACAO" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ_GbkEeubbc8yJli9Wg" label="TP_LOCALIZACAO_DIFERENCIADA" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YQiQ_WbkEeubbc8yJli9Wg" label="IN_EDUCACAO_INDIGENA" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

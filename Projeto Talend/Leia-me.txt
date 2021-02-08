@@ -1,0 +1,10 @@
+Instalar Talend Open Studio for Data Integration (gratuito)
+Importar o Projeto disponibilizado no github (PROJETO_TALEND) para o ambiente local
+Foram disponibilizados 2 procedures e 12 arquivos de metadado, eles estão distribuidos em 3 pastas principais.
+
+Para utilizar procedure
+1- altere o diretório em tFileList_1 para a pasta onde salvou o arquivo descompactado de um determinado ano. Note que alguns anos dos arquivos do INEP foram compactados 2 vezes.
+2- altere o Schema de tFileInputDelimited_1 para o ano sendo carregado.
+3- altere o nome do arquivo em tFileOutputDelimited_1. Este é o arquivo que irá carregar localmente.
+4- altere o componente tMap para que os tipos de dados na parte out (a direita) sejam iguais aos da coluna row2 (a esquerda)
+5- Clique em rodar
